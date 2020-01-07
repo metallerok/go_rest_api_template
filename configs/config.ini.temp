@@ -1,0 +1,7 @@
+[server]
+listen_addr = :8080
+log_level = info
+
+[database]
+#Internal Database. Data Source in PostgreSQL Format
+internal_db = postgres://log:pass@127.0.0.1:5432/db
